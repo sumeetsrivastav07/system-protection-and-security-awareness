@@ -2,39 +2,36 @@
 
 ## 1. What I Learned
 
-A password strength checker evaluates password characteristics and identifies basic weaknesses, such as insufficient length and predictable patterns.
+A password strength checker evaluates password characteristics and identifies basic weaknesses.
 
-A simple checker provides guidance rather than guaranteeing password security.
+Python's `getpass` module accepts input without displaying the typed characters in supported terminals.
 
 ## 2. Why It Matters
 
-This utility applies password security concepts through Python programming and defensive software design.
-
-It demonstrates practical security awareness, input handling, and responsible handling of sensitive data.
+Password input is sensitive and should not be unnecessarily displayed, logged, stored, or transmitted.
 
 ## 3. Practical Exploration
 
-Planned a local Python utility to evaluate password characteristics and provide improvement suggestions.
+Created `password_checker.py` using Python's `getpass` module.
 
-The design avoids storing, logging, or transmitting password input.
+Tested hidden input with a dummy password and used `len()` to calculate its character count.
 
-Testing will use dummy passwords rather than real account credentials.
+The program does not print or save the entered password.
 
 ## 4. Key Takeaway
 
-- Length, uniqueness, and unpredictability are important password properties.
-- Character variety alone does not guarantee strength.
-- Security utilities should minimize exposure of sensitive input.
+- Hidden terminal input helps protect passwords from being displayed while typing.
+- The password still exists in program memory.
+- Secure input handling is one part of defensive programming.
 
 ## 5. Tools / Concepts Used
 
 - Python
-- Standard library
-- Password security
-- Input validation
-- Defensive programming
+- `getpass`
+- `len()`
+- Terminal input
 - Secure input handling
 
 ## 6. Git Commit Note
 
-Add password strength checker design and documentation
+Add secure password input to the password checker

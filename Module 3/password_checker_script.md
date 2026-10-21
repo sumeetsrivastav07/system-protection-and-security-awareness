@@ -32,6 +32,6 @@ The program does not print or save the entered password.
 - Terminal input
 - Secure input handling
 
-## 6. Git Commit Note
+## 6. Git Commit Notes
 
 Add secure password input to the password checker

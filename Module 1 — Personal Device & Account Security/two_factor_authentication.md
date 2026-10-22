@@ -26,3 +26,19 @@ I also enabled 2FA on one important account and understood the role of backup/re
 - Backup codes
 - Account recovery planning
 
+## Additional Learning: Authentication Factors
+
+Two-factor authentication requires verification using two different categories of authentication factors.
+
+### Authentication Factor Categories
+
+* Knowledge: Something the user knows, such as a password.
+* Possession: Something the user has, such as an authenticator device or security key.
+* Inherence: Something the user is, such as a fingerprint.
+
+### Key Takeaways
+
+* Two passwords do not constitute two-factor authentication.
+* Authenticator applications and security keys can strengthen account protection.
+* Recovery codes should be stored securely.
+* Phishing-resistant authentication methods offer stronger protection against credential theft.

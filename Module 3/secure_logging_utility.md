@@ -34,4 +34,4 @@ Build a Python logging utility that masks selected sensitive data patterns befor
 The utility uses basic regular expressions and cannot recognize every possible sensitive-data format. It does not implement encryption, log rotation, centralized monitoring or access control.
 
 ## Learning Outcome
-Understand secure logging practices, sensitive-data masking and the importance of preventing information exposure through application logs.
+Understand secure logging practices, sensitive-data masking and the importance of preventing information exposure through application log
